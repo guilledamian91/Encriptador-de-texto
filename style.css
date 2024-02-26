@@ -1,0 +1,80 @@
+body{
+    background-color:rgba(243, 245, 252, 1);
+}
+
+section.campo-mensaje {
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -700px;
+}
+
+#campo-mensaje {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 30px;
+    resize: none;
+    border:none;
+    border-radius: 32px;
+    width: 400px;
+    height: 655px;
+    top: 40px; 
+    left: 1000px; 
+}
+
+div.btn {
+    display: inline-flex;
+    margin-top: 750px;
+    margin-left: 100px;
+}
+
+.btnEncriptar {
+    margin-left: 270px;
+    background-color: rgba(10, 56, 113, 1);
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 8px; 
+    color: white;
+    border: none; 
+}
+
+.btnDesencriptar {
+    margin-left: 50px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    color: rgba(10, 56, 113, 1);
+}
+
+.btnCopiar{
+    position: absolute;
+    margin-left: 1170px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    color: rgba(10, 56, 113, 1);
+    z-index: 2;
+}
+
+#texto-encriptado {
+    background-color:rgba(243, 245, 252, 1);
+    position: absolute; 
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    line-height: 48px;
+    width: 577px;
+    height: 400px;
+    top: 168px;
+    left: 240px;
+    color: rgba(10, 56, 113, 1);
+    resize: none;
+    margin-left: 150px;
+}
+
+.campo-texto::placeholder {
+    color: rgba(10, 56, 113, 1);
+}
